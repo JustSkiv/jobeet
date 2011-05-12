@@ -1,3 +1,4 @@
 .idea/
 cache/
 log/
+lib/vendor/symfony
