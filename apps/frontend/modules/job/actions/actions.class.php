@@ -73,4 +73,9 @@ class jobActions extends sfActions
       $this->redirect('job/edit?id=' . $jobeet_job->getId());
     }
   }
+
+  public function executeCategory()
+  {
+    $this->job = $this->getRoute()->getObject();
+  }
 }
